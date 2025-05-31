@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agence de voyage boostrap</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.6-dist/css/bootstrap.css">
+    <script src="bootstrap-5.3.6-dist/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+  <!--barre de navigation responsive-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-uppercase fw-bold" href="#">
+                <span class="bg-primary bg-gradient p-1 rounded-3 text-light ">Agence de voyage</span>Assinie</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end fw-bold" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destination">Destination</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#circuits">Circuits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>           
+                </ul>
+            </div>
+        </div>
+    </nav> 
+    <!--section héro-->
+    <div class="p-5 mx-5 mt-5 bg-image" style="background-image: url(img/imgecosse.webp); height:100vh; background-size:cover; background-position: center center;">
+     <div>
+        <div class="mask pt-5">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white fw-bold text-center ">
+              <h1 class="mb-3">Destinations pmonde</h1>
+              <h2 class="mb-3">Voyages sur-mesure</h4>
+              <a class="btn btn-outline-dark mt-5 text-white btn-lg" href="#contact">Demander un dévis</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+<!--section destination-->
+<section id="destination"  class="mt-5">
+  <div class="container">
+    <h2 class="bg-danger text-white mb-4 fw-bold h4 text-center">Destinations</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/usa2.jpg" class="card-img-top" alt="plat1">
+        <div class="card-body">
+          <h5 class="card-title">New-york</h5>
+          <p class="card-text">Grande ville américaine</p>
+          <p class="card-text">978 000 FCFA A/R</p>
+          <a href="#contact" class="btn btn-primary">En savoir plus</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/téléchargement.jpg" class="card-img-top" alt="plat2">
+        <div class="card-body">
+          <h5 class="card-title">Londres</h5>
+          <p class="card-text">Capitale de l'Angleterre</p>
+          <p class="card-text">790 000 FCFA A/R</p>
+          <a href="#contact" class="btn btn-primary">EN savoir plus</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="img/paris.jpg" class="card-img-top" alt="plat3">
+        <div class="card-body">
+          <h5 class="card-title">Paris</h5>
+          <p class="card-text">Capitale de la France</p>
+          <p class="card-text">750 000 FCFA A/R</p>
+          <a href="#contact" class="btn btn-primary">En savoir plus</a>
+        </div>
+      </div>
+    </div>
+</section>
+<!--section circuits-->
+<h2 id="circuits">Circuits privés à Abidjan</h2>
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Découverte Bini Lagune
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+        <strong>Explorez le domaine écotouristique de Bini Lagune, comprenant une balade en canoë, une randonnée, un déjeuner et bien plus encore lors de cette demi-journée. Vous n'aurez rien à organiser. Rencontrez simplement votre guide à l'endroit désigné, puis commencez votre visite. C'est idéal pour ceux qui veulent plus d'aventure, et aussi pour ceux qui veulent passer du temps à se détendre au bord du lagon.</strong> 
+        <p><a href="" class="btn btn-primary">Afficher les détails</a>        
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Hippos Watching Tour
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <strong>Venez découvrir l’incroyable zone d’Agneby Tiassa à 2heures d’Abidjan cette zone est un territoire agricole diversifié et étant traversée par la rivière N’Zi, l’. À travers une promenade, vous aurez l'occasion de voir des hippopotames.</strong>
+      <p><a href="" class="btn btn-primary">Afficher les détails</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Circuit Culturel de 10 Jours en Côte d'Ivoire
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <strong>Plongez dans une aventure mémorable en Côte d'Ivoire lors d'un circuit d'exception. Ce voyage unique vous transportera de la majestueuse savane du nord aux plages immaculées du sud-est, vous offrant une expérience riche en découvertes et en émerveillements.
+
+Notre itinéraire est conçu pour satisfaire les âmes avides d'expériences authentiques, d'immersions culturelles profondes et de nouvelles rencontres. 
+Vous serez ainsi plongé au cœur de deux des civilisations animistes les plus fascinantes d'Afrique de l'Ouest, vous permettant de vivre leur quotidien de manière immersive. 
+
+En parcourant ce trajet, vous aurez également l'opportunité de visiter les vestiges incontournables du pays, ainsi que d'explorer des paysages somptueux et une biodiversité variée à travers des randonnées captivantes.
+
+Nous vous invitons à embarquer dès à présent avec nous pour cette aventure palpitante au coeur de la Côte d'Ivoire.</strong> 
+        <p><a href="" class="btn btn-primary">Afficher les détails</a></p>
+       </div>
+    </div>
+  </div>
+</div>
+<section id="contact" class="mt-5">
+  <div class="container" >
+    <h2 class=" bg-danger text-center text-white mb-4 fw-bold h4">Contactez-nous</h2>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Nom</label>
+        <input type="text" class="form-control" id="name" required>         
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="destination" class="form-label">Destination</label>
+        <select class="form-select" id="destination" required>
+          <option value="" disabled selected>Choisissez une destination</option>
+          <option value="paris">Paris</option>
+          <option value="new-york">New York</option>
+          <option value="londre">Londre</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Envoyer</button>
+    </form>
+  </div>
+</section>
+<!--section footer-->
+<section id="footer" class="bg-dark text-white text-center p-3 mt-5">
+    <p>&copy; 2023 Agence de voyage Assinie. Tous droits réservés.</p>
+    <p>Suivez-nous sur les réseaux sociaux :</p>
+    <a href="https://facebook.com" target="_blank" class="text-white me-2">Facebook</a>
+    <a href="https://linkedin.com"  target="_blank" class="text-white me-2">LinkedIn</a>
+    <a href="https://Tweeter.com" target="_blank" class="text-white me-2">Tweeter</a>
+    <a href="https://instagram.com"    target="_blank" class="text-white">Instagram</a>
+</section>
+</body>
+</html>
